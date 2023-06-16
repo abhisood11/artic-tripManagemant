@@ -8,12 +8,8 @@
 > 
 >There are two type of users in this system : 
 > 
-> a. Admin
->
-> b. Customer
->
-> It is a project on creating a RESTful API.
->
+> 1. Admin
+> 2. Customer
 
 ## Modules 
 
@@ -35,7 +31,6 @@
 - Payment  
 - Provide/View Testimonials 
 - Many More ...
-
 
 ## Technology and Tools Used 
 
@@ -62,4 +57,4 @@
 
 `http://localhost:8088/`
 
-`http://localhost:8088/swagger-ui/index.html#/`
+`http://localhost:8088/swagger-ui/

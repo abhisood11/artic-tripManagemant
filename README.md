@@ -1,4 +1,4 @@
-# Artic Tern Trip Management RESTful Web Services
+# Artic Tern Trip Management (RESTful Web Services)
 
 <p align="center">
   <img width="360" height="400" src="https://user-images.githubusercontent.com/103634964/208469028-1faa67b8-598f-4031-a3b3-7dff8894f8de.jpg">
@@ -6,7 +6,7 @@
 
 > I have developed this REST API for an Online Trip Management System. This API performs all the fundamental CRUD operations of any Trip Management Application platform with user validation at every step.
 > 
->There are two type of users in this system : 
+>There are two types of users in this system : 
 > 
 > 1. Admin
 > 2. Customer
@@ -39,11 +39,11 @@
 - Spring Boot
 - Spring Data JPA
 - Hibernate
-- lombok
+- Lombok
 - Maven
 - Git & GitHub
 - Spring Tool Suite
-- Intellij
+- IntelliJ
 - Postman
 - Swagger
 

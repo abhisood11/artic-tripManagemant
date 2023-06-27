@@ -1,11 +1,8 @@
 package com.articTern.controller;
 
 import java.util.List;
-
 import java.util.Set;
-
 import javax.validation.Valid;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,8 +15,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-
 import com.articTern.dtoes.FeedBackDTO;
 import com.articTern.enums.BookingType;
 import com.articTern.enums.PackageType;
@@ -31,13 +26,10 @@ import com.articTern.model.TripPackage;
 import com.articTern.service.BookingService;
 import com.articTern.service.BusService;
 import com.articTern.service.FeedbackService;
-
 import com.articTern.service.PackageService;
 import com.articTern.service.ReportService;
 import com.articTern.service.RouteService;
 import com.articTern.service.TravelAgencyService;
-
-
 import com.articTern.dtoes.PackageHotelDTO;
 import com.articTern.dtoes.TicketDetails;
 import com.articTern.enums.PackageType;
@@ -51,8 +43,6 @@ import com.articTern.model.Report;
 import com.articTern.model.Route;
 import com.articTern.model.TripPackage;
 import com.articTern.service.HotelService;
-
-
 
 @RestController
 @RequestMapping("/admin")
@@ -81,8 +71,6 @@ class AdminController {
 	
 	@Autowired
 	private ReportService reportService;
-	
-	
 	
 	@PostMapping("/addpackage")
 	public ResponseEntity<TripPackage> addPackageHandler(@Valid @RequestBody PackageHotelDTO packageHotelDTO, @RequestParam("key") String key) throws CredentialException{		
